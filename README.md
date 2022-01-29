@@ -1,3 +1,3 @@
 #My first practice clone coding
 
-Good.
+Good. And cool.

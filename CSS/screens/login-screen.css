@@ -1,0 +1,60 @@
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  text-align: center;
+}
+.welcome-header__title {
+  font-size: 50px;
+  padding-bottom: 30px;
+  font-weight: 700;
+}
+.welcome-header__text {
+  width: 70%;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 300;
+  font-size: 30px;
+}
+#Login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+#Login-form input {
+  padding: 15px 0;
+  border: none;
+  font-size: 15px;
+  border-bottom: solid 3px rgba(0, 0, 0, 0.151);
+  border-radius: 2px;
+  transition: all 0.2s ease-in-out;
+}
+#Login-form input:not([type="submit"]) {
+  margin-bottom: 10px;
+}
+#Login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.404);
+}
+#Login-form input:focus {
+  border-color: var(--green);
+}
+#Login-form input[value*="로그인"] {
+  margin: 10px;
+  border-radius: 5px;
+  border: solid 3px rgba(0, 0, 0, 0);
+  background-color: var(--green);
+  cursor: pointer;
+}
+#Login-form input[value*="로그인"]:focus {
+  border: solid 3px rgba(0, 0, 0, 0.301);
+}
+#Login-form input[value*="로그인"]:active {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+#Login-form a {
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+}

@@ -14,3 +14,19 @@
 .nav__link {
   color: #504f50;
 }
+.nav__item {
+  position: relative;
+}
+.nav__notification {
+  position: absolute;
+  right: -3px;
+  top: -3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  border-radius: 9px;
+  color: white;
+}

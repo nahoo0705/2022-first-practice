@@ -9,7 +9,9 @@
 
 /* Screens */
 @import "screens/login-screen.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Dongle", sans-serif;
+  color: #504f50;
 }

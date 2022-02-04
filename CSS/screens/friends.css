@@ -4,6 +4,7 @@
   font-size: 22px;
   background-color: #faf9fa;
   padding: 5px 0;
+  margin-bottom: 15px;
 }
 
 #friends-display-link i {
@@ -13,4 +14,17 @@
 }
 #friends-display-link i[class*="fas fa-chevron-right"] {
   font-size: 10px;
+}
+.friends-screen {
+  margin: 0px var(--horizontal-space);
+}
+.friends-screen__channel {
+  margin-top: 22px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.friends-screen__channel-header {
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.6);
 }

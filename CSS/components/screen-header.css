@@ -1,13 +1,15 @@
 .screen__header {
   display: flex;
-  padding: 40px 20px 15px 20px;
+  padding: 40px var(--horizontal-space) 15px var(--horizontal-space);
   justify-content: space-between;
   align-items: center;
 }
 .screen__header__text {
   font-size: 40px;
   font-weight: 700;
+  color: black;
 }
 .screen__header__icon span {
   margin-left: 20px;
+  color: black;
 }

@@ -12,6 +12,7 @@
 /* Screens */
 @import "screens/login-screen.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
   font-family: "Dongle", sans-serif;

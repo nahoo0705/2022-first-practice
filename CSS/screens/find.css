@@ -1,0 +1,19 @@
+.find-icons {
+  display: flex;
+  justify-content: space-around;
+}
+.find-icons__icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+.find-icons__icons i {
+  font-size: 25px;
+}
+.find-icons__icons span {
+  margin-top: 10px;
+}

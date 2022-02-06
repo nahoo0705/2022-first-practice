@@ -1,4 +1,7 @@
 :root {
   --green: #b8d860;
+  --grey: rgba(0, 0, 0, 0.6);
+  --pink: rgb(238, 76, 103);
   --horizontal-space: 20px;
+  --grey-border: 1px solid rgba(0, 0, 0, 0.2);
 }

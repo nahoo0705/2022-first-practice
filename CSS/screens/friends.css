@@ -20,11 +20,11 @@
 }
 .friends-screen__channel {
   margin-top: 22px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-top: 1px solid var(--green);
 }
 .friends-screen__channel-header {
   display: flex;
   margin: 10px 0;
   justify-content: space-between;
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--grey);
 }

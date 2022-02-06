@@ -6,6 +6,8 @@
   display: flex;
   justify-content: space-between;
   padding: 8px 5px;
+  background-color: var(--green);
+  opacity: 0.8;
 }
 .status-bar__column:nth-child(2n-1) span {
   margin-right: 3px;

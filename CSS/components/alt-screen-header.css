@@ -1,0 +1,9 @@
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px var(--horizontal-space) 30px var(--horizontal-space);
+}
+.alt-header__column h1 {
+  font-weight: 700;
+  font-size: 40px;
+}

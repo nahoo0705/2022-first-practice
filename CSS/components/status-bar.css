@@ -38,6 +38,8 @@
   top: 0;
   font-size: 25px;
   color: black;
+  background-color: white;
+  opacity: 0.8;
 }
 .status-bar__column {
   width: 33%;

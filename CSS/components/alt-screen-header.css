@@ -1,8 +1,16 @@
 .alt-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   margin: 50px var(--horizontal-space) 30px var(--horizontal-space);
 }
+.alt-header__column:first-child {
+  margin-right: auto;
+}
+.alt-header__column:last-child {
+  margin-left: auto;
+}
+
 .alt-header__column h1 {
   font-weight: 700;
   font-size: 40px;

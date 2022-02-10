@@ -1,0 +1,24 @@
+.setting-top {
+  border-bottom: var(--grey-border);
+  padding-bottom: 30px;
+}
+.setting-list {
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 20px 0;
+}
+.setting-list i {
+  margin-right: 15px;
+  color: var(--green);
+}
+.setting-list:last-child {
+  border: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.setting-list__version-current {
+  color: var(--grey);
+}

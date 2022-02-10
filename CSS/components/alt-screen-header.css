@@ -4,11 +4,18 @@
   align-items: center;
   margin: 50px var(--horizontal-space) 30px var(--horizontal-space);
 }
+.alt-header__column {
+  color: black;
+  display: flex;
+  align-items: center;
+}
 .alt-header__column:first-child {
   margin-right: auto;
+  font-size: 30px;
 }
 .alt-header__column:last-child {
   margin-left: auto;
+  font-size: 25px;
 }
 
 .alt-header__column h1 {

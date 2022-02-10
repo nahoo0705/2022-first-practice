@@ -1,6 +1,11 @@
-.alt-header__column:last-child i:last-child {
-  margin-left: 20px;
-}
 #chatting-screen {
   background-color: #a0b9c8;
+  height: 300vh;
+}
+#chatting-screen .alt-header {
+  position: fixed;
+}
+
+#chatting-screen .alt-header__column:last-child i:last-child {
+  margin-left: 20px;
 }
